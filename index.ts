@@ -1,10 +1,11 @@
 import type { MiddlewareHandler } from "hono";
 import { createRequestHandler, type CreateRequestHandlerArgs } from "bun-remix";
 
-export function remixMiddleware(
+export async function remixMiddleware(
   args: CreateRequestHandlerArgs
-): MiddlewareHandler {
+): Promise<MiddlewareHandler> {
+  const handler = await createRequestHandler(args);
   return async function ({ req }) {
-    return createRequestHandler(args)(req.raw);
+    return handler(req.raw);
   };
 }
