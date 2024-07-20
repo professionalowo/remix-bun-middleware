@@ -1,7 +1,6 @@
 {
   "name": "remix-bun-middleware",
   "module": "index.ts",
-  "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
     "hono": "^4.4.5"
@@ -9,6 +8,7 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "type": "module",
   "dependencies": {
     "bun-remix": "git+https://github.com/professionalowo/bun-remix.git"
   }
