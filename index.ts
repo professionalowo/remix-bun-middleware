@@ -1,5 +1,5 @@
 import type { MiddlewareHandler } from "hono";
-import { createRequestHandler, type CreateRequestHandlerArgs } from "bun-remix";
+import { createRequestHandler, type CreateRequestHandlerArgs } from "./bun-remix";
 
 /**
  *

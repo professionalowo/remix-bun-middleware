@@ -8,6 +8,6 @@
   },
   "type": "module",
   "dependencies": {
-    "bun-remix": "git+https://github.com/professionalowo/bun-remix.git"
+    "react-router": "^7.5.0"
   }
 }

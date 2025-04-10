@@ -4,7 +4,7 @@
     "": {
       "name": "remix-bun-middleware",
       "dependencies": {
-        "bun-remix": "git+https://github.com/professionalowo/bun-remix.git",
+        "react-router": "^7.5.0",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -21,8 +21,6 @@
     "@types/node": ["@types/node@22.14.0", "", { "dependencies": { "undici-types": "~6.21.0" } }, "sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA=="],
 
     "@types/ws": ["@types/ws@8.18.1", "", { "dependencies": { "@types/node": "*" } }, "sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg=="],
-
-    "bun-remix": ["bun-remix@github:professionalowo/bun-remix#7a5009d", { "dependencies": { "react-router": "^7.5.0" }, "peerDependencies": { "typescript": "^5.0.0" } }, "professionalowo-bun-remix-7a5009d"],
 
     "bun-types": ["bun-types@1.2.9", "", { "dependencies": { "@types/node": "*", "@types/ws": "*" } }, "sha512-dk/kOEfQbajENN/D6FyiSgOKEuUi9PWfqKQJEgwKrCMWbjS/S6tEXp178mWvWAcUSYm9ArDlWHZKO3T/4cLXiw=="],
 
