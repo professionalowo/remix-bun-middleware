@@ -15,6 +15,7 @@ import { createRequestHandler, type CreateRequestHandlerArgs } from "./bun-remix
  *  ) as unknown as Promise<ServerBuild>;
  *
  *  app.all(
+ *      "*",
  *      await remixMiddleware({
  *        build,
  *        mode: Bun.env.NODE_ENV as "production" | "development",
